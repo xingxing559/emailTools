@@ -40,11 +40,9 @@
 
 ## 截图
 
-<!-- 上传 GitHub 后可将截图放到 docs/screenshots/ 并取消注释 -->
-<!--
 ![主界面](docs/screenshots/main.png)
 ![添加账号](docs/screenshots/add-account.png)
--->
+
 
 ## 快速开始
 
