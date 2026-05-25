@@ -2,8 +2,6 @@
 
 **Windows 桌面多邮箱查看工具 · 只读 · 单文件 exe**
 
-[English](#english) | 简体中文
-
 [![Go](https://img.shields.io/badge/Go-1.23+-00ADD8?logo=go&logoColor=white)](https://go.dev/)
 [![Wails](https://img.shields.io/badge/Wails-v2-DF4C2F)](https://wails.io/)
 [![Vue](https://img.shields.io/badge/Vue-3-4FC08D?logo=vue.js&logoColor=white)](https://vuejs.org/)
@@ -169,34 +167,6 @@ EmailTools/
 │   └── cache/
 └── frontend/          # Vue 3 UI
 ```
-
----
-
-## English
-
-**EmailTools** is a native **Windows** desktop mail **viewer** (read-only) built with **Go** and **Wails v2**. It connects to mailboxes over **IMAP** and supports **QQ Mail**, **NetEase (163/126/yeah)**, and **Outlook/Hotmail** using app passwords—no browser OAuth flow.
-
-Features include multi-account sidebar, HTML rendering with sanitization, local list cache, configurable auto-refresh, and resizable panes. Credentials are encrypted with **Windows DPAPI**.
-
-Build: `wails build -platform windows/amd64` → `build/bin/EmailTools.exe`
-
----
-
-## 上传到 GitHub 时可用的仓库简介
-
-将下面一段粘贴到 GitHub 仓库 **About → Description**（约 350 字符内）：
-
-```
-Windows 桌面多邮箱查看工具（只读）。Go + Wails + Vue，IMAP 支持 QQ / 163 / Outlook。多账号、HTML 邮件、列表缓存、定时刷新，单 exe 免运行时。
-```
-
-英文 Description（可选）：
-
-```
-Read-only Windows mail viewer via IMAP. Go + Wails + Vue. QQ, NetEase 163, Outlook. Multi-account, HTML mail, local cache, auto-refresh. Single exe.
-```
-
-建议 Topics：`wails` `golang` `vue` `imap` `email` `windows` `qq-mail` `outlook` `desktop-app`
 
 ---
 
